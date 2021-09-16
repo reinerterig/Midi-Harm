@@ -1,4 +1,7 @@
+-- Play harmonies with MIDI
 
+
+---------------------------------------------------------
 engine.name = 'mHarm'
 m = midi.connect(1)
 m.event = function(data) 
